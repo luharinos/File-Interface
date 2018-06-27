@@ -26,7 +26,7 @@ A user-interactive interface for browsing through Intranet.
   <td>
         <a href="https://github.com/shah25">
             <img src="https://github.com/shah25.png" height=150px width=150px><br>
-            Debashree Sarkar
+            Kaushal Shah
         </a>
     </td>
 </table>
