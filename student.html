@@ -46,6 +46,23 @@ form.example::after {
     clear: both;
     display: table;
 }
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px 100px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 </style>
 </head>
 <body bgcolor="lightblue">
@@ -62,21 +79,19 @@ form.example::after {
   <button type="submit" ><i class="fa fa-search"></i></button>
 </form>
 </center>
-
-<h2> Available Stuff:</h2>
-<ul>
-<li>Attendance</li>
-<li>Comp data</li>
-<li>Etrx data</li>
-<li>Extc data</li>
-<li>Mech data</li>
-<li>It data</li>
-<li>Time-table</li>
-<li>Lab writeups(all)</li>
-<li>Syllabus</li>
-<li>Notices</li>
-and many more....
-</ul>
+<br>
+<br>
+<div class="grid-container">
+  <div class="grid-item">Attendance</div>
+  <div class="grid-item">Comp Data</div>
+  <div class="grid-item">Etrx Data</div>  
+  <div class="grid-item">Extc Data</div>
+  <div class="grid-item">Mech Data</div>
+  <div class="grid-item">IT Data</div>  
+  <div class="grid-item">Lab-Writeups(All)</div>
+  <div class="grid-item">Syllabus</div>
+  <div class="grid-item">Timetable</div>  
+</div>
 </body>
 </html> 
 
