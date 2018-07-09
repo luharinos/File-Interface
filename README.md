@@ -12,7 +12,7 @@ Local web server, [XAMPP](https://www.apachefriends.org/download.html), for exec
 
 1. Clone or download the repository to the *htdocs* folder of your local web server.
 
-      `git clone git@github.com:raoniz/Intranet-Interface.git`
+      `git clone https://github.com/raoniz/Intranet-Interface.git`
       
 2. Start **Apache** and **MySQL** service in the *XAMPP Control Panel*.
 3. Goto **'localhost/phpmyadmin'** in your web browser.
