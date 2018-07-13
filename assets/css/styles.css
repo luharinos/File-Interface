@@ -88,10 +88,9 @@ footer {
 
 
 .filemanager .search {
-	position: absolute;
-	padding-right: 30px;
 	cursor: pointer;
-	right: 0;
+	position: relative;
+	margin: auto;
 	font-size: 17px;
 	display: block;
 	width: 40px;
@@ -104,7 +103,8 @@ footer {
 	background-color: #FFF;
 	width: 250px;
 	height: 44px;
-	margin-left: -215px;
+	margin-left: -108px;
+	margin-right: -108px;
 	padding-left: 20px;
     text-decoration-color: #4d535e;
     box-shadow: 1px 1px 4px #000000;
@@ -131,6 +131,23 @@ footer {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
 	color:    #4d535e;
+}
+
+
+/*-------------------------
+	Session Indicator
+-------------------------*/
+
+.session_indicator {
+	border-radius: 30px;
+	box-shadow: 2px 2px 5px #2e2e2e;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none !important;
 }
 
 

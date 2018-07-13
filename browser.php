@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html>
+<?php session_start();
+
+if(isset($_SESSION['username'])) {
+echo '<html>
 <head lang="en">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -16,6 +18,13 @@
             <input type="search" placeholder="Find a file.." />
         </div>
         
+		<div class="session_indicator pull-right">
+			<a href="logout.php">
+				<span class="session_name">'. $_SESSION['username'] .'</span>
+				<span class="glyphicon glyphicon-off"></span>
+			</a>
+		</div>
+
 		<div class="breadcrumbs"></div>
 
 		<ul class="data"></ul>
@@ -35,4 +44,7 @@
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>
-</html>
+</html>';
+} else {
+	header('Location: ./login_form.php');
+}
