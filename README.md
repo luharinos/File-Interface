@@ -1,8 +1,8 @@
-# Intranet-Interface
+# File-Interface
 
-A user-interactive interface for browsing through Intranet.
+A user-interactive interface for browsing through files.
 
-![Intranet Content Inventory](https://axerosolutions.com/assets/custom-images/how-to-build-an-intranet/intranet-content.png "Intranet")
+![Intranet Content Inventory](https://axerosolutions.com/assets/custom-images/how-to-build-an-intranet/intranet-content.png "Files")
 
 ## Pre-requisites
 
