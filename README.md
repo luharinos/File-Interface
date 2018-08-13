@@ -12,7 +12,7 @@ Local web server, [XAMPP](https://www.apachefriends.org/download.html), for exec
 
 1. Clone or download the repository to the *htdocs* folder of your local web server.
 
-      `git clone https://github.com/raoniz/Intranet-Interface.git`
+      `git clone https://github.com/raoniz/File-Interface.git`
       
 2. Start **Apache** and **MySQL** service in the *XAMPP Control Panel*.
 3. Goto **'localhost/phpmyadmin'** in your web browser.
@@ -21,9 +21,9 @@ Local web server, [XAMPP](https://www.apachefriends.org/download.html), for exec
       `CREATE DATABASE intranet_db`
     
 5. Import database file **'database/intranet_db.sql'** into the newly created database *(intranet_db)*.
-6. Goto **'localhost/Intranet-Interface'** in your web browser.
+6. Goto **'localhost/File-Interface'** in your web browser.
 
-*Lo! Intranet is live..*
+*Lo! Interface is live..*
 
 ## Contributors
 
